@@ -23,7 +23,7 @@ import { saveAs } from 'file-saver';
 const Screenshot = () => {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   const theme = useMantineTheme();
-  const [url, setUrl] = useState<string>('mockstudio.vercel.app');
+  const [url, setUrl] = useState<string>('mockstudio.app');
   const screenShotRef: any = useRef(null);
 
   const downloadImage = () => {
